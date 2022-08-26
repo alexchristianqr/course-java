@@ -60,7 +60,7 @@ public class ciclosForWhile {
                 contador++;
                 System.out.print("[" + numeros[j][i] + "]");
             }
-            System.out.println("");
+            System.out.println();
         }
         System.out.println("--");
     }
@@ -87,7 +87,7 @@ public class ciclosForWhile {
                     contador++;
                     System.out.print("[" + numeros[z][y][x] + "]");
                 }
-                System.out.println("");
+                System.out.println();
             }
             contador = 1;// Reiniciar contador de arreglo bidimensional
         }
