@@ -1,6 +1,6 @@
 package basic;
 
-public class cicloFor {
+public class ciclosForWhile {
     public static void main(String[] args) {
         int counter = 10;
 
