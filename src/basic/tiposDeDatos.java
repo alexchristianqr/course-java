@@ -15,14 +15,25 @@ class tiposDeDatos {
     static final int DIAS_LABORABLES = 5;
 
     public static void main(String[] args) {
+        tipoConstante();
+        tipoNumerico();
+        tipoCaracter();
+        tipoCaracterUnicode();
+        tipoLogico();
+    }
+
+    static void tipoConstante() {
         // Constantes
         final double PI = 3.14;
+
+        // Consola
         System.out.println("El valor de PI es " + PI);
         System.out.println("El número de días de la semana son " + DIAS_SEMANA);
         System.out.println("El número de días laborables de la semana son " + DIAS_LABORABLES);
-
         System.out.println("--");
+    }
 
+    static void tipoNumerico() {
         // Numéricos
         byte num1 = -128;
         short num2 = 9999;
@@ -30,36 +41,43 @@ class tiposDeDatos {
         long num4 = 999999999;
         float num5 = 999999999;
         double num6 = 99.9;
+
+        // Consola
         System.out.println("byte " + num1);
         System.out.println("short " + num2);
         System.out.println("int " + num3);
         System.out.println("long " + num4);
         System.out.println("float " + num5);
         System.out.println("doube " + num6);
-        int base = 12;
-        int altura = 14;
-        int area;
-        area = (base * altura) / 2;
-        System.out.println("El area de un triangulo es " + area);
-
         System.out.println("--");
+    }
 
+    static void tipoCaracter() {
         // Carácteres alfanuméricos
         String nombreCompleto = "Alex Christian";
         String miCorreo = "admin123@gmail.com";
+
+        // Consola
         System.out.println(nombreCompleto);
         System.out.println(miCorreo);
-
         System.out.println("--");
+    }
 
-        // Carácteres unicode de 16 bits
+    static void tipoCaracterUnicode() {
+        // Carácter unicode de 16 bits
         char valorUnicode = 100;
+
+        // Consola
         System.out.println(valorUnicode);
-
         System.out.println("--");
+    }
 
-        // Logicos
+    static void tipoLogico() {
+        // Logico
         boolean esVerdad = true;
+
+        // Consola
         System.out.println(esVerdad);
+        System.out.println("--");
     }
 }
