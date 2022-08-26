@@ -10,7 +10,7 @@ double	64 bits	    -1.79769313486232e308	    1.79769313486232e308
 char	16 bits	    '\u0000'	                '\uffff'
 */
 
-class Main {
+class tiposDeDatos {
     static final int DIAS_SEMANA = 7;
     static final int DIAS_LABORABLES = 5;
 
@@ -20,6 +20,8 @@ class Main {
         System.out.println("El valor de PI es " + PI);
         System.out.println("El número de días de la semana son " + DIAS_SEMANA);
         System.out.println("El número de días laborables de la semana son " + DIAS_LABORABLES);
+
+        System.out.println("--");
 
         // Numéricos
         byte num1 = -128;
@@ -40,15 +42,21 @@ class Main {
         area = (base * altura) / 2;
         System.out.println("El area de un triangulo es " + area);
 
+        System.out.println("--");
+
         // Carácteres alfanuméricos
         String nombreCompleto = "Alex Christian";
         String miCorreo = "admin123@gmail.com";
         System.out.println(nombreCompleto);
         System.out.println(miCorreo);
 
+        System.out.println("--");
+
         // Carácteres unicode de 16 bits
         char valorUnicode = 100;
         System.out.println(valorUnicode);
+
+        System.out.println("--");
 
         // Logicos
         boolean esVerdad = true;
