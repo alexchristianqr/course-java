@@ -1,7 +1,11 @@
 package intermedio;
 
-public abstract class Persona implements PersonaInterface {
-    public String hablar(String etiqueta) {
-        return "El " + etiqueta + " está hablando...";
+public class Persona {
+     public String quienSoy() {
+        return "Soy una persona";
+    }
+
+    public String quienSoy(String etiqueta) {
+        return "Soy un " + etiqueta;
     }
 }

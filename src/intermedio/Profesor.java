@@ -2,11 +2,11 @@ package intermedio;
 
 public class Profesor extends Persona {
 
-    public String explicar() {
-        return "El profesor está explicando...";
+    public String explicarTrabajo() {
+        return "El profesor está explicando el trabajo";
     }
 
-    public String desarrollar() {
-        return "El profesor está desarrollando...";
+    public String desarrollarTrabajo() {
+        return "El profesor está desarrollando el trabajo";
     }
 }
