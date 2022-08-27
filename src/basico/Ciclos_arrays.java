@@ -5,6 +5,7 @@ public class Ciclos_arrays {
         cicloFor();
         cicloWhile();
         cicloDoWhile();
+        cicloForEach();
         arregloBidimensional();
         arregloTridimensional();
     }
@@ -40,6 +41,16 @@ public class Ciclos_arrays {
             indice++;
             System.out.println("El indice es " + indice);
         } while (indice < contador);
+        System.out.println("--");
+    }
+
+    static void cicloForEach() {
+        String[] personas = {"Jose", "Juan", "Miguel", "Luis", "Alberto", "Daniela"};
+
+        // Ciclo forEach avanzad
+        for (String persona : personas) {
+            System.out.println(persona);
+        }
         System.out.println("--");
     }
 
