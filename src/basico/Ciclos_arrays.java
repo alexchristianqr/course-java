@@ -1,6 +1,6 @@
 package basico;
 
-public class ciclosForWhile {
+public class Ciclos_arrays {
     public static void main(String[] args) {
         cicloFor();
         cicloWhile();

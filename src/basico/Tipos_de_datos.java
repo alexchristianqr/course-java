@@ -10,7 +10,7 @@ double	64 bits	    -1.79769313486232e308	    1.79769313486232e308
 char	16 bits	    '\u0000'	                '\uffff'
 */
 
-class tiposDeDatos {
+class Tipos_de_datos {
     static final int DIAS_SEMANA = 7;
     static final int DIAS_LABORABLES = 5;
 
