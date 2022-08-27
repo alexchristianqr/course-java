@@ -1,4 +1,4 @@
-package basic;
+package basico;
 
 public class ciclosForWhile {
     public static void main(String[] args) {
