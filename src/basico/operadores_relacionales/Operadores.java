@@ -1,6 +1,6 @@
-package basico;
+package basico.operadores_relacionales;
 
-public class Operadores_relacionales {
+public class Operadores {
     public static void main(String[] args) {
         mayorMenor();
         mayorIgual();

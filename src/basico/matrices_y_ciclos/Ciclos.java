@@ -1,6 +1,6 @@
-package basico;
+package basico.matrices_y_ciclos;
 
-public class Ciclos_arrays {
+public class Ciclos {
     public static void main(String[] args) {
         cicloFor();
         cicloWhile();
