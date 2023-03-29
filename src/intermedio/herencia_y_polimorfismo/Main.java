@@ -1,6 +1,6 @@
-package intermedio;
+package intermedio.herencia_y_polimorfismo;
 
-public class Ejemplo_de_polimorfismo {
+public class Main {
     public static void main(String[] args) {
         instanciarClasePersona();
         instanciarClaseProfesor();

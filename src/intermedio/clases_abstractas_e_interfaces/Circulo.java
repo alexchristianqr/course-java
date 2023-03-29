@@ -1,4 +1,4 @@
-package intermedio;
+package intermedio.clases_abstractas_e_interfaces;
 
 public class Circulo extends Figura {
 

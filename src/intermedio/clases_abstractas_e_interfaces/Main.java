@@ -1,9 +1,9 @@
-package intermedio;
+package intermedio.clases_abstractas_e_interfaces;
 
-public class Ejemplo_de_interface {
+public class Main {
     public static void main(String[] args) {
         areaTriangulo();
-        areaCudrado();
+        areaCuadrado();
         areaCirculo();
     }
 
@@ -15,7 +15,7 @@ public class Ejemplo_de_interface {
         System.out.println("--");
     }
 
-    static void areaCudrado() {
+    static void areaCuadrado() {
         Cuadrado cuadrado = new Cuadrado();
         cuadrado.setLado(4);
         System.out.println("El área de un cuadrado es " + cuadrado.area());

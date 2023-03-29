@@ -1,7 +1,7 @@
-package intermedio;
+package intermedio.herencia_y_polimorfismo;
 
 public class Persona {
-     public String quienSoy() {
+    public String quienSoy() {
         return "Soy una persona";
     }
 

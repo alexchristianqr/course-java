@@ -1,4 +1,4 @@
-package intermedio;
+package intermedio.herencia_y_polimorfismo;
 
 public class Profesor extends Persona {
 
