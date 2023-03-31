@@ -1,12 +1,7 @@
 package basico.operadores_relacionales;
 
-public class Operadores {
+class EjemploMayorQue {
     public static void main(String[] args) {
-        mayorMenor();
-        mayorIgual();
-    }
-
-    static void mayorMenor() {
         int valor1 = 10;
         int valor2 = 5;
         boolean resultadoA = valor1 < valor2;
@@ -17,8 +12,10 @@ public class Operadores {
         System.out.println("10 == 5 " + resultadoC);
         System.out.println("--");
     }
+}
 
-    static void mayorIgual() {
+class EjemploMayorIgualQue {
+    public static void main(String[] args) {
         int valor1 = 10;
         int valor2 = 5;
         boolean resultadoA = valor1 >= valor2;
