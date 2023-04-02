@@ -29,7 +29,7 @@ class EjemploComparator {
         List<Persona> personas = new ArrayList<>();
         personas.add(persona);// añadir objetos Persona a la lista
 
-        Collections.sort(personas, edadComparator);
+        personas.sort(edadComparator);
 
         for (Persona person : personas) {
             System.out.println("La persona es: " + person.getEdad());
