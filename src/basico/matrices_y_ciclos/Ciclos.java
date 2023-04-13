@@ -4,51 +4,42 @@ import java.util.Scanner;
 
 class EjemploFor {
     public static void main(String[] args) {
+        // D
         int contador = 10;
 
-        System.out.println("-- start --");
-
-        // Ciclo for
+        // IPS
         for (int indice = 1; indice <= contador; indice++) {
             System.out.println("El indice es " + indice);
         }
-
-        System.out.println("-- end --");
     }
 }
 
 class EjemploWhile {
     public static void main(String[] args) {
+        // D
         int contador = 10;
         int indice = 1;
 
-        System.out.println("-- start --");
-
-        // Ciclo while
+        // IPS
         while (indice <= contador) {
             System.out.println("El indice es " + indice);
             indice++;
         }
-
-        System.out.println("-- end --");
     }
 
 }
 
 class EjemploDoWhile {
     public static void main(String[] args) {
+        // D
         int contador = 10;
         int indice = 0;
 
-        System.out.println("-- start --");
-
-        // Ciclo do while
+        // IPS
         do {
             indice++;
             System.out.println("El indice es " + indice);
         } while (indice < contador);
-
-        System.out.println("-- end --");
     }
 
 }
@@ -56,21 +47,19 @@ class EjemploDoWhile {
 class EjemploForEach {
 
     public static void main(String[] args) {
+        // D
         String[] personas = {"Jose", "Juan", "Miguel", "Luis", "Alberto", "Daniela"};
 
-        System.out.println("-- start --");
-
-        // Ciclo forEach avanzado
+        // IPS
         for (String persona : personas) {
             System.out.println(persona);
         }
-
-        System.out.println("-- end --");
     }
 }
 
 class EjemploMatrizBidimensional {
     public static void main(String[] args) {
+        // D
         int filas = 3;// j
         int columnas = 3;// i
         int contador = 1;

@@ -5,10 +5,10 @@ class EjemploTipoConstante {
     static final int DIAS_LABORABLES = 5;
 
     public static void main(String[] args) {
-        // Constantes
-        final double PI = 3.14;
+        // D
+        final double PI = 3.14;// Constante
 
-        // Consola
+        // IPS
         System.out.println("El valor de PI es " + PI);
         System.out.println("El número de días de la semana son " + DIAS_SEMANA);
         System.out.println("El número de días laborables de la semana son " + DIAS_LABORABLES);
@@ -20,7 +20,7 @@ class EjemploTipoNumero {
 
     public static void main(String[] args) {
 
-        /**
+        /*
             byte	8 bits	    -128                        127
             short	16 bits	    -32768	                    32767
             int	    32 bits	    -2147483648	                2147483647
@@ -28,9 +28,9 @@ class EjemploTipoNumero {
             float	32 bits	    -3.402823e38	            3.402823e38
             double	64 bits	    -1.79769313486232e308	    1.79769313486232e308
             char	16 bits	    '\u0000'	                '\uffff'
-         **/
+         */
 
-        // Numéricos
+        // D
         byte num1 = -128;
         short num2 = 9999;
         int num3 = 999999999;
@@ -38,7 +38,7 @@ class EjemploTipoNumero {
         float num5 = 999999999;
         double num6 = 99.9;
 
-        // Consola
+        // IPS
         System.out.println("byte " + num1);
         System.out.println("short " + num2);
         System.out.println("int " + num3);
@@ -51,11 +51,11 @@ class EjemploTipoNumero {
 
 class EjemploTipoCadena {
     public static void main(String[] args) {
-        // Carácteres alfanuméricos
+        // D
         String nombreCompleto = "Alex Christian";
         String miCorreo = "admin123@gmail.com";
 
-        // Consola
+        // IPS
         System.out.println(nombreCompleto);
         System.out.println(miCorreo);
         System.out.println("--");
@@ -64,10 +64,10 @@ class EjemploTipoCadena {
 
 class EjemploTipoLogico {
     public static void main(String[] args) {
-        // Verdadero o falso
+        // D
         boolean esVerdad = true;
 
-        // Consola
+        // IPS
         System.out.println(esVerdad);
         System.out.println("--");
     }
