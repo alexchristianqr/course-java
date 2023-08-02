@@ -1,4 +1,4 @@
-package basico.matrices_y_ciclos;
+package basico.arreglos_y_matrices;
 
 import java.util.Scanner;
 
